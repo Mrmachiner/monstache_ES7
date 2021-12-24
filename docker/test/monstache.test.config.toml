@@ -1,0 +1,24 @@
+mongo-url = "mongodb://root-user:password@mongo-0:27017"
+
+change-stream-namespaces = ["hoang.profile", "hoang.students", "hoang.test", "hoang.user", "hoang.jb_report"]
+
+direct-read-namespaces = ["hoang.profile", "hoang.students", "hoang.test", "hoang.user", "hoang.jb_report"]
+
+elasticsearch-urls = ["http://es7:9200"]
+
+elasticsearch-max-conns = 1
+
+elasticsearch-max-seconds = 1
+
+elasticsearch-max-docs = 1
+
+enable-http-server = true
+
+verbose = true
+
+[logs]
+info = "/home/logs//info.log"
+trace = "/home/logs//trace.log"
+error = "/home/logs//error.log"
+warn = "/home/logs//warn.log"
+
